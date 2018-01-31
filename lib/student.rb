@@ -16,7 +16,7 @@ class Student
       )
       SQL
 
-      DB[:conn].exectute(sql)
+      DB[:conn].execute(sql)
   end
 
 
